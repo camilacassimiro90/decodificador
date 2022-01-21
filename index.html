@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="titulo">Código Secreto</h1>
+    <div class="color-switch-label">
+      <label for="switch">
+        <input type="checkbox" id="switch" />Dark Mode
+      </label>
+    </div>
+    <main class="main">
+      <section class="form box">
+        <form action="">
+          <label for="input-texto">Apenas letras minúsculas, sem acento</label>
+          <textarea
+            class="text-input"
+            name="input-texto"
+            id="entrada"
+            placeholder="Digite um texto para criptografar ou descriptografar."
+          ></textarea>
+          <button class="btn" id="btn-cripto">Criptografar</button>
+          <button class="btn" id="btn-descripto">Descriptografar</button>
+        </form>
+      </section>
+
+      <section class="msg box">
+        <h2 id="">Mensagem criptografada:</h2>
+        <textarea
+          class="text-input"
+          name=""
+          id="saida"
+          placeholder="Nenhuma mensagem encontrada. Volte e digite um texto."
+        ></textarea>
+        <button class="btn" id="btn-copy">Copiar</button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="theme.js"></script>
+  </body>
+  <footer>
+    <a
+      class="externo"
+      href="https://github.com/camilacassimiro90"
+      target="blank"
+      >Desenvolvido por: Camila Cassimiro</a
+    >
+    <a
+      class="externo"
+      href="https://www.alura.com.br/challenges/oracle-one/semana01e02-construa-decodificador-texto-com-javascript"
+      target="blank"
+      >Alura Challenge - Oracle ONE</a
+    >
+  </footer>
+</html>

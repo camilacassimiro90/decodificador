@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg: #fafafa;
+  --body-color: #899095;
+  --link-color: #222;
+  --link-color-hover: #001eff;
+}
+
+.dark-mode:root {
+  --body-bg: #212529;
+  --body-color: #f5f5f5;
+  --link-color: #303030;
+  --link-color-hover: #c81cdf;
+}
+
+body {
+  background-color: var(--body-bg);
+  color: var(--body-color);
+  font-family: Verdana, Geneva, Tahoma;
+  font-size: auto;
+  font-weight: bold;
+}
+
+.color-switch-label {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.titulo::after {
+  content: '\00A0\1F575';
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgb(82, 78, 78);
+  border-radius: 0.5em;
+  width: 30vw;
+  height: auto;
+}
+
+.btn {
+  border: none;
+  color: #303030;
+  font-weight: bolder;
+  font-size: 0.5em;
+  background: #f5f5f5;
+  margin-top: 1em;
+  padding: 1em 2.5em;
+  border-radius: 6em;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  width: auto;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#btn-copy {
+  border: none;
+  color: #303030;
+  font-weight: bolder;
+  background: #f5f5f5;
+  padding: 1em 2.5em;
+  border-radius: 6em;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  width: auto;
+}
+
+#btn-copy:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#btn-copy:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 400px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--body-color);
+  content: '\00A0\1F517';
+}
+
+a.externo::before {
+  content: '\00A0\1F517';
+}
+
+a:hover {
+  color: var(--link-color-hover);
+}
+
+footer {
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
