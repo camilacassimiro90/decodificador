@@ -1,5 +1,6 @@
-# decodificador
-Desafio proposto pela formação Oracle One com Alura. Neste projeto foi feito um decodificador de textos com JS
+# Decodificador
+Desafio proposto pela formação Oracle One com Alura. Neste projeto foi feito um decodificador de textos com JS.
+https://www.alura.com.br/challenges/oracle-one/semana01e02-construa-decodificador-texto-com-javascript
 
 
 https://user-images.githubusercontent.com/79873793/150575822-f34460bf-2503-4003-a6e8-defac3e1cfcd.mp4
